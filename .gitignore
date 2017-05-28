@@ -16,6 +16,6 @@ hs_err_pid*
 *.classpath
 *.project
 
-demo/target/
-demo/.settings/
+/target/
+/.settings/
 /build/

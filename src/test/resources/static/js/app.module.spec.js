@@ -1,6 +1,6 @@
 describe("App", function() {
 
-	beforeEach(module('hello'));
+	beforeEach(module('demo'));
 	var $httpBackend, $controller, $http;
 	beforeEach(inject(function($injector) {
 		$httpBackend = $injector.get('$httpBackend');
@@ -13,7 +13,6 @@ describe("App", function() {
 	});
 
 	
-
 	describe("Home Controller", function() {
 
 		it("says Hello User when controller loads", function() {

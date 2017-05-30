@@ -51,7 +51,7 @@
 			<version>${angularjs.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jasmine</artifactId>
@@ -158,7 +158,16 @@
 						<source>/webjars/angularjs/${angularjs.version}/angular-mocks.js</source>
 					</preloadSources>
 					<jsSrcDir>${project.basedir}/src/main/resources/static/js</jsSrcDir>
+					<sourceIncludes>
+						<include>**/*.module.js</include>
+						<include>**/*.controller.js</include>
+						<include>**/*.service.js</include>
+						<include>**/*.js</include>
+					</sourceIncludes>
 					<jsTestSrcDir>${project.basedir}/src/test/resources/static/js</jsTestSrcDir>
+					<specIncludes>
+						<include>**/*.js</include>
+					</specIncludes>
 					<phantomjs>
 						<version>2.1.1</version>
 					</phantomjs>

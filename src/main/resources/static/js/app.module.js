@@ -1,2 +1,2 @@
-angular.module('hello', [ 'ngRoute', 'auth', 'home', 'message', 'navigation' ]);
+angular.module('demo', [ 'ngRoute', 'auth', 'home', 'message', 'navigation' ]);
 

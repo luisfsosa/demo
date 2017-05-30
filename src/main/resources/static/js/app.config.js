@@ -1,4 +1,4 @@
-angular.module('hello')
+angular.module('demo')
 	.config([ '$routeProvider', '$httpProvider', '$locationProvider',
 		function($routeProvider, $httpProvider, $locationProvider) {
 
